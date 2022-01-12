@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0025: Use expression body for properties
+dotnet_diagnostic.IDE0025.severity = none
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = suggestion
